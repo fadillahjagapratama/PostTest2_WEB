@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- dibawah kode untuk menghubungkan file html ke file css -->
+    <link rel="stylesheet" href="styleformaccount.css">
+    <link rel="icon" href="Bigetron Esports Logo.png">
+    <title>Sign In</title>
+</head>
+<body>
+    <header>
+        <img src="Bigetron Esports Logo.png" alt="logo" style="float: left;" style="text-align: right;" width="70px" height="70px">
+        <h1>BIGETRON E-SPORTS</h1>
+    </header>
+    <nav>
+           <a href="home.html"><span>Home</span></a>
+           <a href="about.html"><span>About</span></a>
+           <a href="form.html"><span>Form</span></a>        
+           <a href="profil.html"><span>Profile</span></a>
+           <a href="sign-in.html"><span style="color: red;">Sign In</span></a>
+    </nav>
+    <div class="login">
+        <form onsubmit="saveUser(event)">
+            <h1 style="text-align: center;">SIGN IN</h1><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <footer>
+        <p>2023 Fadillah Jaga Pratama</p>
+    </footer>
+</body>
+<script src="script.js"></script> 
+</html>

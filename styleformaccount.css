@@ -1,0 +1,255 @@
+@charset "utf-8";
+        @import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+*{
+  margin:0px;
+  font-family: sans-serif;
+  color: white;
+}
+
+body{
+  background-image: url("BTR Background.webp");
+}
+
+header h1{
+  background-color: rgb(26, 26, 26);
+  /* cara membaca arah padding sesuai dengan arah jarum jam (mulai dari atas/padding-top, lalu padding-left/kiri dan selanjutnya memutar) */
+  padding: 15px 0px 20px 20px;
+  color: white;
+  margin-top: 2px;
+}
+
+nav{
+  background-color: rgb(6, 2, 2);
+  padding: 10px 0px 10px 25px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  margin-left: 37px;
+  margin-right: -12px;
+}
+
+nav a:hover{
+  background-color:rgb(26, 26, 26); 
+  transition : 0,1s;
+  box-shadow: px 1px 10px 2px rgb(170, 165, 165);
+}
+
+.container{
+  text-align: justify;
+}
+
+.container h1{
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.containerform h1{
+  font-family: Verdana;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.container h2{
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 9px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.container h3{
+  font-family: tahoma;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+}
+
+.text1 h4{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text2 h4{
+  text-align: center;
+  margin-top: 30px;
+  font-family: verdana;
+}
+
+.atas{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+footer{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.612);
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  line-height: 50px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.footr{
+  color: white;
+  padding: 15px 0px 80px 40px;
+}
+
+.con{
+  background-color: transparent;
+  padding: 30px 40px;
+  margin: 90px 100px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.con h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+iframe{
+ position: absolute;
+ top: 50%; left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 1em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-left: 650px;
+  margin-top: 30px;
+}
+.btn:hover, .btn:focus {
+  color: rgb(35, 35, 35);
+  outline: 0;
+}
+.fourth {
+  border-color: whitesmoke;
+  color: #fff;
+  background-image: linear-gradient(45deg, whitesmoke 50%, transparent 110%);
+  background-position: 100%;
+  background-size: 400%;
+  transition: background 300ms ease-in-out;
+}
+.fourth:hover {
+  background-position: 0;
+}
+
+
+        [class*="fontawesome-"]:before {
+          font-family: 'FontAwesome', sans-serif;
+        }
+
+        body {
+          color: white;
+          font: 87.5%/1.5em 'Open Sans', sans-serif;
+          margin: 0;
+        }
+
+        p {
+          line-height: 1.5em;
+        }
+
+        after { clear: both; }
+
+        .login {
+          margin: 100px auto;
+          width: 350px;
+        }
+
+        .login form {
+          margin: auto;
+          padding: 22px 22px 22px 22px;
+          width: 100%;
+          border-radius: 5px;
+          background: #282e33;
+          border-top: 3px solid #434a52;
+          border-bottom: 3px solid #434a52;
+        }
+
+        .login form span {
+          background-color: #363b41;
+          border-radius: 3px 0px 0px 3px;
+          border-right: 3px solid #434a52;
+          color: #606468;
+          display: block;
+          float: left;
+          line-height: 50px;
+          text-align: center;
+          width: 50px;
+          height: 50px;
+        }
+
+        .login form input[type="text"] {
+          background-color: #3b4148;
+          border-radius: 0px 3px 3px 0px;
+          color: #a9a9a9;
+          margin-bottom: 1em;
+          padding: 0 16px;
+          width: 90%;
+          height: 50px;
+        }
+
+        .login form input[type="password"] {
+          background-color: #3b4148;
+          border-radius: 0px 3px 3px 0px;
+          color: #a9a9a9;
+          margin-bottom: 1em;
+          padding: 0 16px;
+          width: 90%;
+          height: 50px;
+        }
+
+        .login form button[type="submit"] {
+          background-image: linear-gradient(45deg, red 50%, transparent 75%);
+          border: 0;
+          width: 100%;
+          height: 40px;
+          border-radius: 3px;
+          color: white;
+          cursor: pointer;
+          transition: background 0.3s ease-in-out;
+        }
+        #login form input[type="submit"]:hover {
+          background: #16aa56;
+        }
